@@ -77,8 +77,6 @@ Linux
 
 ![Linux Distribution](img/linuxdistro.jpg)
 
-----
-
 ## Linux is open source
 
 Its core code can be inspected and you can contribute !
@@ -101,8 +99,6 @@ Cluster uptime is about Years
 | W3Tech | Feb 19 |  69.3 |      30.7 |    0 |
 
 [W3Tech](https://w3techs.com/technologies/overview/operating_system/all)
-
-----
 
 ## Linux is Standalone or Remote
 
@@ -177,11 +173,11 @@ Cons:
 
 ## Conda packages
 
-Advantages
+Advantages:
 
 *  Programs are usually the latest version
 
-Cons
+Cons:
 
 *  Needs update to config files (`~/.bashrc`)
 *  Weird interactions with system programs/libraries
@@ -193,7 +189,6 @@ Cons
 *  Only one source of packages
 *  Similar to conda
    *  fewer packages
-
 
 ## Conda
 
@@ -208,34 +203,33 @@ You can start creating a conda environemnt.
 . . .
 
 A conda environment let's you install and use software *softly separated* by the original system 
+
 ```bash
 conda create -n softwareCollection
 ```
 
 # Bioinformatic Applications
 
-----
+## Bioinformatic Applications
 
 ```bash
 conda activate softwareCollection
 ```
 Then you are ready to install the application for RNA-seq
 
-
-----
-
 ## Bioinformatic Applications
 
-```
+```bash
 conda install -y -c bioconda \
-                 fastqc=0.11.8 \
-                 trimmomatic=0.38 \
-                 samtools=1.9 \
-                 star=2.6.1b
+              fastqc=0.11.8 \
+              trimmomatic=0.38 \
+              samtools=1.9 \
+              star=2.6.1b
 ```
 
 # Computer
 
+## Computer
 * Local
 * Remote
 * Physical
