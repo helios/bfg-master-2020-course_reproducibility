@@ -16,4 +16,6 @@
 
 [Lectures](https://github.com/helios/reproducibility-bfg-master)
 
+. . .
+
 https://github.com/helios/reproducibility-bfg-master
