@@ -5,7 +5,7 @@
 
 # Outline
 
--------
+----
 
 *  [Overview](./01-Overview.html) 05.10.20
 *  [Git](../couse_git/course_git.html) 06.10.20
@@ -13,6 +13,8 @@
 *  [Virtualization](./course_virtualization/content.html) XX.10.20
 *  [Docker](../course_docker/dockerfile.html) XX.11.20
 *  [Wrokflows: Nextflow](./06-Nextflow.html) XX.11.20
+
+. . .
 
 [Lectures](https://github.com/helios/reproducibility-bfg-master)
 
